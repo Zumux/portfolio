@@ -1,0 +1,116 @@
+/* Source Code Pro */ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+/* Sen */ @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+/* Poppins */ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* COLORS */
+.colors {
+    border: 2px solid black;
+    width: 70vw;
+    text-align: center;
+    margin: 0.5%;
+}
+
+.colors div {
+    padding:2%;
+    margin: 1%;
+    color: white;
+}
+
+.dark-purple {
+    background: #0F0F1C;
+}
+
+.red {
+    background: #DF5454;
+}
+
+.blue-gray {
+    background: #76A3AF;
+}
+
+.indigo {
+    background: #1A1A2E;
+}
+
+
+/* FONTS */
+
+.fonts {
+    border: 2px solid black;
+    width: 70vw;
+    text-align: center;
+    margin: 0.5%;
+}
+.fonts div {
+    padding: 2%;
+    margin: 1%;
+    color: black;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;   
+}
+
+.sen {
+    font-family: 'Sen', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* TEXT STYLES */
+
+.text-styles {
+    border: 2px solid black;
+    width: 70vw;
+    text-align: center;
+    margin: 0.5%;
+}
+.text-styles div {
+    padding: 2%;
+    margin: 1%;
+    color: black;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.h1 h3{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.h2 h3 {
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+}
+
+.p h3 {
+    font-family: 'Sen', sans-serif;
+    font-size: 14px;
+}
